@@ -1,0 +1,12 @@
+{
+  "status": "passed_candidate_packaging_checks_not_new_API_tests",
+  "runtime_files_identical_to_real_v661": true,
+  "dependency_pins_unchanged": 124,
+  "relative_markdown_links_valid": true,
+  "tested_private_paths_ignored": 10,
+  "tested_public_paths_visible": 5,
+  "no_raw_qa_pdf_notebook_secrets_or_db_in_pack": true,
+  "selfcheck": "12 groups passed in development environment, not a new Windows rerun",
+  "source_and_LICENSE": "author_source_statement_recorded_no_license_chosen",
+  "scope_note": "本文件保留初始本地打包检查结果；仓库后续公开和资料补齐不构成生产部署验证。"
+}

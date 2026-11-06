@@ -1,0 +1,451 @@
+{
+  "dataset_id": "R2MAX-FIXED20-v1",
+  "corpus_sha256": {
+    "RIVER2": "2cacfb6b780d1242398bc0879ec3a328741505c4ca7d7b948bd867e9038de428",
+    "MAX": "5d37a1710770517f135abe053c23b266eac7af07f1076d3710f20cbdb2254157"
+  },
+  "cases": [
+    {
+      "case_id": "R2M-01",
+      "category": "单产品",
+      "question": "RIVER 2 Max的电池容量是多少？请标注资料引用。",
+      "task_type": "answerable",
+      "reference_answer": "512Wh。",
+      "evidence_requirements": [
+        {
+          "source_id": "MAX",
+          "pdf_page": 4,
+          "fact_to_check": "容量512Wh"
+        }
+      ],
+      "grading_note": "事实、方向、型号及适用条件由人工核验；数字编号存在不等于引用支持。纯拒答引用可不适用；附加具体说明仍须引用。",
+      "manual_review": {
+        "fact": "待核验",
+        "citation_support": "待核验",
+        "retrieval_coverage": "待核验"
+      },
+      "record_id": null
+    },
+    {
+      "case_id": "R2M-02",
+      "category": "跨型号",
+      "question": "分别列出RIVER 2与RIVER 2 Max的电池容量，并分别标注引用。",
+      "task_type": "answerable",
+      "reference_answer": "RIVER 2：256Wh；Max：512Wh。",
+      "evidence_requirements": [
+        {
+          "source_id": "RIVER2",
+          "pdf_page": 4,
+          "fact_to_check": "容量256Wh"
+        },
+        {
+          "source_id": "MAX",
+          "pdf_page": 4,
+          "fact_to_check": "容量512Wh"
+        }
+      ],
+      "grading_note": "事实、方向、型号及适用条件由人工核验；数字编号存在不等于引用支持。纯拒答引用可不适用；附加具体说明仍须引用。",
+      "manual_review": {
+        "fact": "待核验",
+        "citation_support": "待核验",
+        "retrieval_coverage": "待核验"
+      },
+      "record_id": null
+    },
+    {
+      "case_id": "R2M-03",
+      "category": "跨型号/输入",
+      "question": "分别列出RIVER 2与RIVER 2 Max的USB-C最大输入功率，并分别标注引用。",
+      "task_type": "answerable",
+      "reference_answer": "RIVER 2：60W；Max：100W，均须为输入规格。",
+      "evidence_requirements": [
+        {
+          "source_id": "RIVER2",
+          "pdf_page": 4,
+          "fact_to_check": "USB-C输入，60W"
+        },
+        {
+          "source_id": "MAX",
+          "pdf_page": 4,
+          "fact_to_check": "USB-C输入，100W"
+        }
+      ],
+      "grading_note": "事实、方向、型号及适用条件由人工核验；数字编号存在不等于引用支持。纯拒答引用可不适用；附加具体说明仍须引用。",
+      "manual_review": {
+        "fact": "待核验",
+        "citation_support": "待核验",
+        "retrieval_coverage": "待核验"
+      },
+      "record_id": null
+    },
+    {
+      "case_id": "R2M-04",
+      "category": "单产品/输出",
+      "question": "RIVER 2 Max的USB-C最大输出功率是多少？请标注资料引用。",
+      "task_type": "answerable",
+      "reference_answer": "100W；须依据输出规格。",
+      "evidence_requirements": [
+        {
+          "source_id": "MAX",
+          "pdf_page": 4,
+          "fact_to_check": "USB-C输出，100W"
+        }
+      ],
+      "grading_note": "事实、方向、型号及适用条件由人工核验；数字编号存在不等于引用支持。纯拒答引用可不适用；附加具体说明仍须引用。",
+      "manual_review": {
+        "fact": "待核验",
+        "citation_support": "待核验",
+        "retrieval_coverage": "待核验"
+      },
+      "record_id": null
+    },
+    {
+      "case_id": "R2M-05",
+      "category": "跨型号/相同值",
+      "question": "分别列出两款产品RIVER 2与RIVER 2 Max的车充最大输入功率，并标注引用。",
+      "task_type": "answerable",
+      "reference_answer": "两者车充输入均为100W；不可把Max车充输出126W代入。",
+      "evidence_requirements": [
+        {
+          "source_id": "RIVER2",
+          "pdf_page": 4,
+          "fact_to_check": "车充充电输入，100W"
+        },
+        {
+          "source_id": "MAX",
+          "pdf_page": 4,
+          "fact_to_check": "车充充电输入，100W"
+        }
+      ],
+      "grading_note": "事实、方向、型号及适用条件由人工核验；数字编号存在不等于引用支持。纯拒答引用可不适用；附加具体说明仍须引用。",
+      "manual_review": {
+        "fact": "待核验",
+        "citation_support": "待核验",
+        "retrieval_coverage": "待核验"
+      },
+      "record_id": null
+    },
+    {
+      "case_id": "R2M-06",
+      "category": "输入输出区分",
+      "question": "RIVER 2 Max车充接口的最大输入功率和车充输出功率分别是多少？请分别引用。",
+      "task_type": "answerable",
+      "reference_answer": "输入100W；车充输出规格126W。",
+      "evidence_requirements": [
+        {
+          "source_id": "MAX",
+          "pdf_page": 4,
+          "fact_to_check": "车充输入100W；车充输出126W"
+        }
+      ],
+      "grading_note": "事实、方向、型号及适用条件由人工核验；数字编号存在不等于引用支持。纯拒答引用可不适用；附加具体说明仍须引用。",
+      "manual_review": {
+        "fact": "待核验",
+        "citation_support": "待核验",
+        "retrieval_coverage": "待核验"
+      },
+      "record_id": null
+    },
+    {
+      "case_id": "R2M-07",
+      "category": "跨型号",
+      "question": "分别列出RIVER 2与RIVER 2 Max的太阳能最大输入功率，并分别引用。",
+      "task_type": "answerable",
+      "reference_answer": "RIVER 2：110W；Max：220W。",
+      "evidence_requirements": [
+        {
+          "source_id": "RIVER2",
+          "pdf_page": 4,
+          "fact_to_check": "太阳能输入110W"
+        },
+        {
+          "source_id": "MAX",
+          "pdf_page": 4,
+          "fact_to_check": "太阳能输入220W"
+        }
+      ],
+      "grading_note": "事实、方向、型号及适用条件由人工核验；数字编号存在不等于引用支持。纯拒答引用可不适用；附加具体说明仍须引用。",
+      "manual_review": {
+        "fact": "待核验",
+        "citation_support": "待核验",
+        "retrieval_coverage": "待核验"
+      },
+      "record_id": null
+    },
+    {
+      "case_id": "R2M-08",
+      "category": "跨型号/电压",
+      "question": "分别列出RIVER 2与RIVER 2 Max的太阳能输入电压范围，并分别引用。",
+      "task_type": "answerable",
+      "reference_answer": "RIVER 2：11–30V；Max：11–50V。",
+      "evidence_requirements": [
+        {
+          "source_id": "RIVER2",
+          "pdf_page": 4,
+          "fact_to_check": "太阳能输入11-30V"
+        },
+        {
+          "source_id": "MAX",
+          "pdf_page": 4,
+          "fact_to_check": "太阳能输入11-50V"
+        }
+      ],
+      "grading_note": "事实、方向、型号及适用条件由人工核验；数字编号存在不等于引用支持。纯拒答引用可不适用；附加具体说明仍须引用。",
+      "manual_review": {
+        "fact": "待核验",
+        "citation_support": "待核验",
+        "retrieval_coverage": "待核验"
+      },
+      "record_id": null
+    },
+    {
+      "case_id": "R2M-09",
+      "category": "跨型号",
+      "question": "RIVER 2与RIVER 2 Max的净重分别是多少？请分别引用。",
+      "task_type": "answerable",
+      "reference_answer": "约3.5kg；约6.1kg；保留约字。",
+      "evidence_requirements": [
+        {
+          "source_id": "RIVER2",
+          "pdf_page": 4,
+          "fact_to_check": "净重约3.5kg"
+        },
+        {
+          "source_id": "MAX",
+          "pdf_page": 4,
+          "fact_to_check": "净重约6.1kg"
+        }
+      ],
+      "grading_note": "事实、方向、型号及适用条件由人工核验；数字编号存在不等于引用支持。纯拒答引用可不适用；附加具体说明仍须引用。",
+      "manual_review": {
+        "fact": "待核验",
+        "citation_support": "待核验",
+        "retrieval_coverage": "待核验"
+      },
+      "record_id": null
+    },
+    {
+      "case_id": "R2M-10",
+      "category": "额定/峰值",
+      "question": "RIVER 2 Max交流输出的额定总功率和峰值功率分别是多少？请引用。",
+      "task_type": "answerable",
+      "reference_answer": "额定总功率500W；峰值1000W；不能把X-Boost当作额定。",
+      "evidence_requirements": [
+        {
+          "source_id": "MAX",
+          "pdf_page": 4,
+          "fact_to_check": "交流输出500W（峰值1000W）"
+        }
+      ],
+      "grading_note": "事实、方向、型号及适用条件由人工核验；数字编号存在不等于引用支持。纯拒答引用可不适用；附加具体说明仍须引用。",
+      "manual_review": {
+        "fact": "待核验",
+        "citation_support": "待核验",
+        "retrieval_coverage": "待核验"
+      },
+      "record_id": null
+    },
+    {
+      "case_id": "R2M-11",
+      "category": "跨型号/相同值",
+      "question": "分别给出RIVER 2与RIVER 2 Max的充电环境温度范围，并标注引用。",
+      "task_type": "answerable",
+      "reference_answer": "两者均为0℃至45℃；不能使用放电温度-10℃至45℃。",
+      "evidence_requirements": [
+        {
+          "source_id": "RIVER2",
+          "pdf_page": 4,
+          "fact_to_check": "充电环境温度0℃~45℃"
+        },
+        {
+          "source_id": "MAX",
+          "pdf_page": 4,
+          "fact_to_check": "充电环境温度0℃~45℃"
+        }
+      ],
+      "grading_note": "事实、方向、型号及适用条件由人工核验；数字编号存在不等于引用支持。纯拒答引用可不适用；附加具体说明仍须引用。",
+      "manual_review": {
+        "fact": "待核验",
+        "citation_support": "待核验",
+        "retrieval_coverage": "待核验"
+      },
+      "record_id": null
+    },
+    {
+      "case_id": "R2M-12",
+      "category": "使用条件",
+      "question": "仅按手册，RIVER 2在-10℃环境下充电是否符合其充电温度范围？请引用。",
+      "task_type": "answerable",
+      "reference_answer": "不符合；充电范围0℃至45℃。不扩大为所有放电或存储都不可。",
+      "evidence_requirements": [
+        {
+          "source_id": "RIVER2",
+          "pdf_page": 4,
+          "fact_to_check": "充电环境温度0℃~45℃"
+        }
+      ],
+      "grading_note": "事实、方向、型号及适用条件由人工核验；数字编号存在不等于引用支持。纯拒答引用可不适用；附加具体说明仍须引用。",
+      "manual_review": {
+        "fact": "待核验",
+        "citation_support": "待核验",
+        "retrieval_coverage": "待核验"
+      },
+      "record_id": null
+    },
+    {
+      "case_id": "R2M-13",
+      "category": "材料",
+      "question": "RIVER 2 Max使用什么电芯材料？请引用。",
+      "task_type": "answerable",
+      "reference_answer": "LFP/磷酸铁锂。",
+      "evidence_requirements": [
+        {
+          "source_id": "MAX",
+          "pdf_page": 4,
+          "fact_to_check": "电芯材料LFP（磷酸铁锂）"
+        }
+      ],
+      "grading_note": "事实、方向、型号及适用条件由人工核验；数字编号存在不等于引用支持。纯拒答引用可不适用；附加具体说明仍须引用。",
+      "manual_review": {
+        "fact": "待核验",
+        "citation_support": "待核验",
+        "retrieval_coverage": "待核验"
+      },
+      "record_id": null
+    },
+    {
+      "case_id": "R2M-14",
+      "category": "单端口功率",
+      "question": "RIVER 2 Max的USB-A每路最大输出功率是多少？请引用。",
+      "task_type": "answerable",
+      "reference_answer": "每路12W；不是全部端口总功率。",
+      "evidence_requirements": [
+        {
+          "source_id": "MAX",
+          "pdf_page": 4,
+          "fact_to_check": "USB-A输出最大功率12W每路"
+        }
+      ],
+      "grading_note": "事实、方向、型号及适用条件由人工核验；数字编号存在不等于引用支持。纯拒答引用可不适用；附加具体说明仍须引用。",
+      "manual_review": {
+        "fact": "待核验",
+        "citation_support": "待核验",
+        "retrieval_coverage": "待核验"
+      },
+      "record_id": null
+    },
+    {
+      "case_id": "R2M-15",
+      "category": "型号识别",
+      "question": "RIVER 2和RIVER 2 Max在手册中的型号代码分别是什么？请分别引用。",
+      "task_type": "answerable",
+      "reference_answer": "EFR600；EFR610。",
+      "evidence_requirements": [
+        {
+          "source_id": "RIVER2",
+          "pdf_page": 4,
+          "fact_to_check": "型号EFR600"
+        },
+        {
+          "source_id": "MAX",
+          "pdf_page": 4,
+          "fact_to_check": "型号EFR610"
+        }
+      ],
+      "grading_note": "事实、方向、型号及适用条件由人工核验；数字编号存在不等于引用支持。纯拒答引用可不适用；附加具体说明仍须引用。",
+      "manual_review": {
+        "fact": "待核验",
+        "citation_support": "待核验",
+        "retrieval_coverage": "待核验"
+      },
+      "record_id": null
+    },
+    {
+      "case_id": "R2M-16",
+      "category": "纠正前提",
+      "question": "RIVER 2的USB-C最大输入也是100W，对吗？请按资料纠正并引用。",
+      "task_type": "answerable",
+      "reference_answer": "不对，RIVER 2为60W；不能沿用Max的100W。",
+      "evidence_requirements": [
+        {
+          "source_id": "RIVER2",
+          "pdf_page": 4,
+          "fact_to_check": "USB-C输入60W"
+        }
+      ],
+      "grading_note": "事实、方向、型号及适用条件由人工核验；数字编号存在不等于引用支持。纯拒答引用可不适用；附加具体说明仍须引用。",
+      "manual_review": {
+        "fact": "待核验",
+        "citation_support": "待核验",
+        "retrieval_coverage": "待核验"
+      },
+      "record_id": null
+    },
+    {
+      "case_id": "R2M-17",
+      "category": "使用条件/EPS",
+      "question": "RIVER 2 Max的EPS能实现0ms无缝切换吗？手册给出的切换时间是什么？请引用。",
+      "task_type": "answerable",
+      "reference_answer": "不支持0ms；手册称市电断电后30ms内切换。",
+      "evidence_requirements": [
+        {
+          "source_id": "MAX",
+          "pdf_page": 12,
+          "fact_to_check": "EPS非专业级UPS，不支持0ms；30ms内"
+        }
+      ],
+      "grading_note": "事实、方向、型号及适用条件由人工核验；数字编号存在不等于引用支持。纯拒答引用可不适用；附加具体说明仍须引用。",
+      "manual_review": {
+        "fact": "待核验",
+        "citation_support": "待核验",
+        "retrieval_coverage": "待核验"
+      },
+      "record_id": null
+    },
+    {
+      "case_id": "R2M-18",
+      "category": "资料不足/价格",
+      "question": "仅根据当前两份说明书，RIVER 2 Max的官方售价是多少？",
+      "task_type": "insufficient_in_corpus",
+      "reference_answer": "资料不足，无法确认；不从外部页面或模型常识补售价。",
+      "evidence_requirements": [],
+      "grading_note": "事实、方向、型号及适用条件由人工核验；数字编号存在不等于引用支持。纯拒答引用可不适用；附加具体说明仍须引用。",
+      "manual_review": {
+        "fact": "待核验",
+        "citation_support": "待核验",
+        "retrieval_coverage": "待核验"
+      },
+      "record_id": null
+    },
+    {
+      "case_id": "R2M-19",
+      "category": "资料范围/虚构品缺席",
+      "question": "演示电源TEST-A的车充最大输入功率是多少？请按当前资料回答。",
+      "task_type": "insufficient_in_corpus",
+      "reference_answer": "资料不足，无法确认；本批次未上传TXT，不能沿用80W。",
+      "evidence_requirements": [],
+      "grading_note": "事实、方向、型号及适用条件由人工核验；数字编号存在不等于引用支持。纯拒答引用可不适用；附加具体说明仍须引用。",
+      "manual_review": {
+        "fact": "待核验",
+        "citation_support": "待核验",
+        "retrieval_coverage": "待核验"
+      },
+      "record_id": null
+    },
+    {
+      "case_id": "R2M-20",
+      "category": "资料范围/第三型号",
+      "question": "RIVER 2 Pro的电池容量是多少？请按当前资料回答。",
+      "task_type": "insufficient_in_corpus",
+      "reference_answer": "资料不足，无法确认；不能从已有两款推断或按常识回答第三型号。",
+      "evidence_requirements": [],
+      "grading_note": "事实、方向、型号及适用条件由人工核验；数字编号存在不等于引用支持。纯拒答引用可不适用；附加具体说明仍须引用。",
+      "manual_review": {
+        "fact": "待核验",
+        "citation_support": "待核验",
+        "retrieval_coverage": "待核验"
+      },
+      "record_id": null
+    }
+  ]
+}

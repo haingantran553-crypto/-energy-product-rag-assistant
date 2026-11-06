@@ -1,0 +1,32 @@
+[
+  {
+    "file": "app.py",
+    "longest_exact_nonempty_noncomment_line_run": 1,
+    "matched_line_runs": []
+  },
+  {
+    "file": "evaluation_tools.py",
+    "longest_exact_nonempty_noncomment_line_run": 1,
+    "matched_line_runs": []
+  },
+  {
+    "file": "kb_storage.py",
+    "longest_exact_nonempty_noncomment_line_run": 1,
+    "matched_line_runs": []
+  },
+  {
+    "file": "history_storage.py",
+    "longest_exact_nonempty_noncomment_line_run": 0,
+    "matched_line_runs": []
+  },
+  {
+    "file": "followup_tools.py",
+    "longest_exact_nonempty_noncomment_line_run": 0,
+    "matched_line_runs": []
+  },
+  {
+    "file": "answer_checks.py",
+    "longest_exact_nonempty_noncomment_line_run": 1,
+    "matched_line_runs": []
+  }
+]

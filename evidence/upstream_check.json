@@ -1,0 +1,40 @@
+{
+  "checked_date_local": "2026-11-06",
+  "repository": "https://github.com/langchain-ai/rag-from-scratch",
+  "checked_head": "1fdb7d0e4f1d3e731c8397332452715512f18667",
+  "root_entries": [
+    {
+      "name": "README.md",
+      "sha": "db6875f644e1f063bbc03f286e93a16326969be7"
+    },
+    {
+      "name": "rag_from_scratch_10_and_11.ipynb",
+      "sha": "a148fdb1cbba4f39d09f575cd9b121abf8be9958"
+    },
+    {
+      "name": "rag_from_scratch_12_to_14.ipynb",
+      "sha": "a338a66987797e9be3b8bdaa4df3a8ce6944ed5b"
+    },
+    {
+      "name": "rag_from_scratch_15_to_18.ipynb",
+      "sha": "f5225f17915fda36f3cc42c7631686a8961eb05c"
+    },
+    {
+      "name": "rag_from_scratch_1_to_4.ipynb",
+      "sha": "cd1925f6b65a8bbdfb0735abfc358efe46371af5"
+    },
+    {
+      "name": "rag_from_scratch_5_to_9.ipynb",
+      "sha": "3bf3dfea3c32f9b9c997eda7df499e0ef6ecaa10"
+    }
+  ],
+  "readme_mentions_license": false,
+  "license_file_in_root": false,
+  "license_issue": {
+    "url": "https://github.com/langchain-ai/rag-from-scratch/issues/27",
+    "number": 27,
+    "title": "License file missing",
+    "state": "open"
+  },
+  "scope": "上游根目录、README和Issue27初查；不是完整历史来源或依赖许可审计。"
+}

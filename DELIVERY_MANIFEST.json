@@ -1,6 +1,6 @@
 {
   "app_version": "6.6.1-correction-selection",
-  "source_status": "review_pending_no_LICENSE_selected",
+  "source_status": "author_reported_assistant_delivered_files_no_additional_manual_copying_reported_LICENSE_unselected",
   "runtime_code": {
     "app.py": "e18dc99d926be26d0f862c42c44b2f7bd5707bd4e39aa754b15ba2c32197665c",
     "evaluation_tools.py": "532b82f9890d7a27a3bfd6e652d6e62f7ded3fbf4b4a9046aeacc67a1f9e99a6",
@@ -13,5 +13,12 @@
   "real_api_keys_included": false,
   "pdfs_included": false,
   "upstream_notebook_included": false,
-  "raw_qa_bodies_included": false
+  "raw_qa_bodies_included": false,
+  "author_source_statement": {
+    "date": "2026-11-06",
+    "original_statement": "都是直接替换下载的文件",
+    "scope": "six_application_modules_author_report_not_independent_originality_guarantee"
+  },
+  "publication_repository": "https://github.com/haingantran553-crypto/-energy-product-rag-assistant",
+  "publication_status": "public_source_prototype_not_production"
 }

@@ -4,7 +4,7 @@
 
 参考[langchain-ai/rag-from-scratch](https://github.com/langchain-ai/rag-from-scratch)基础索引、检索与生成教学流程，完成业务适配和功能改造，并非完整复现全部仓库或从零发明RAG算法。代码由ChatGPT辅助实现，个人工作包括场景与边界定义、功能取舍、Windows集成、原文核验、失败分析和真实复测。来源与许可边界见[来源说明](docs/SOURCES_AND_LICENSE.md)。
 
-当前为`6.6.1-correction-selection`发布候选，尚未上传GitHub或投入生产。主提示词6、检索v6.6-unit-field-hybrid-neighbors；来源复用范围和代码许可证仍有待确认项。
+当前为`6.6.1-correction-selection`已公开的个人作品原型，尚未投入生产。主提示词6、检索v6.6-unit-field-hybrid-neighbors；作者已确认六模块均采用助手交付文件替换，来源说明已补录；代码许可证尚未选择，不宣称全部原创或默认MIT。
 
 ## 功能与边界
 

@@ -1,0 +1,67 @@
+{
+  "status": "public_source_prototype_not_production_author_source_statement_recorded_LICENSE_unselected",
+  "windows_acceptance": {
+    "date": "2026-11-06",
+    "evidence_type": "user_terminal_output_and_user_ui_confirmation",
+    "independent_venv": ".venv-verify-v661",
+    "pip_check": "No broken requirements found.",
+    "selfcheck_groups": 12,
+    "app_version_confirmed": "6.6.1-correction-selection",
+    "opened_chunk_count_confirmed": 45,
+    "history_restore_confirmed": true,
+    "scope": "same_Windows_new_virtual_environment_not_new_machine"
+  },
+  "private_input_fingerprints": {
+    "qa_records_v6 (13).json": "af5f474362b7a4ca60d40fa75129ef3151b8a5fd55dfbfcd993f4f4b474bde5f",
+    "qa_records_v6 (14).json": "a7cf2c497471cd4fdc711691c57156e65b7547535d985f34389039de9b2614d6",
+    "qa_records_v6 (15).json": "a16ccdd2cc08a1803866daab681a8fd72666911540f4f7e59ca43dcbf10411a4",
+    "qa_records_v6 (16).json": "ca44be6753c350207518e3e6750b0d2ce54f72695dba53dd7e5a0cf99500177d"
+  },
+  "v651_fixed20": {
+    "first_strict_pass": 15,
+    "total": 20,
+    "after_recorded_manual_retries_strict_pass": 17,
+    "timeout_requests": 3,
+    "requests": 23,
+    "citation_failed_cases": [
+      "08",
+      "16",
+      "17"
+    ],
+    "not_current_version": true
+  },
+  "v66_targeted": {
+    "final_strict_pass": 3,
+    "total": 3,
+    "initial_generation_strict_pass": 2,
+    "generations": 4
+  },
+  "v66_controls": {
+    "strict_pass_after_recorded_manual_retry": 3,
+    "total": 4,
+    "C02": "citation_failure_after_correction",
+    "C03": "APIConnectionError_before_generation_then_manual_retry_passed"
+  },
+  "v661_C02": {
+    "final_strict_pass": 1,
+    "total": 1,
+    "initial_generation": "citation_failure",
+    "model_calls": 2,
+    "numeric_corrections": 1,
+    "before_detectable_issues": 2,
+    "after_detectable_issues": 0,
+    "correction_accepted": true,
+    "total_seconds_single_request": 124.8056
+  },
+  "offline_development": {
+    "tests_passed": 197,
+    "mode": "real_local_components_simulated_API",
+    "not_real_QA_count": true
+  },
+  "boundaries": [
+    "no_v661_complete20_rate",
+    "no_production_deployment",
+    "no_business_user_count",
+    "no_efficiency_improvement_claim"
+  ]
+}
